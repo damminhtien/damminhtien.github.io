@@ -16,44 +16,43 @@
 
 ## => Site Settings
 ##############################
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+text_skin: forest # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: tomorrow-night-blue # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
-description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+title   : DMT's Blog
+description: Never have any failure, all is challenge # this means to ignore newlines until "Language & timezone"
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: en # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
+timezone: Asia/Saigon # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
-  url       :
+  name      : damminhtien
+  url       : 
   avatar    : # path or url of avatar image
-  bio       : I am an amazing person.
-  email     :
-  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
-  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+  bio       : Technology enthusiast, happy guy.
+  email     : damminhtienchl@gmail.com
+  facebook  : damminhtienmain # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+  twitter   : Dam_Minh_Tien # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  googleplus: damminhtienchl # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name/
-  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name/
-  github    : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
-  npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+  linkedin  : damminhtien # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name/
+  github    : damminhtien # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  npm       : damminhtien # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: damminhtien/damminhtien.github.io
 repository_tree: master
 
 
@@ -82,14 +81,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
+mathjax: true #  (default), true
 mathjax_autoNumber: # false (default), true
 
 ## Mermaid
 mermaid: # false (default), true
 
 ## Chart
-chart: # false (default), true
+chart: true # false (default), true
 
 
 ## => Paginate
@@ -148,11 +147,11 @@ pageview:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
+    tracking_id : UA-129163052-1 # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
