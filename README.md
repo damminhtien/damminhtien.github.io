@@ -1,2 +1,7 @@
-# damminhtien.github.io
-This is my blog :tada: :tada: :tada: 
+# DMT's Blog
+
+https://damminhtien.github.io/
+
+
+
+More: [WaterBlog](https://thewaterdroplets.blogspot.com)
