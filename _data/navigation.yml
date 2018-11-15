@@ -13,7 +13,13 @@ header:
     url:        /about.html
   - titles:
       en:       CS231n Vietnamese [Beta]
-      zh:       关于
-      zh-Hans:  关于
-      zh-Hant:  關於
+      zh:       
+      zh-Hans:  
+      zh-Hant:  
     url:        /cs231n-vietnamese
+  - titles:
+      en:       BKFA Team
+      zh:       
+      zh-Hans:  
+      zh-Hant: 
+    url:        https://www.facebook.com/bkfateam
