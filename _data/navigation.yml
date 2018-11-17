@@ -1,18 +1,18 @@
 header:
   - titles:
-      en:       Lưu trữ
+      en:       Lưu-trữ
       zh:       归档
       zh-Hans:  归档
       zh-Hant:  歸檔
     url:        /archive.html
   - titles:
-      en:       CS231n Vietnamese [Beta]
+      en:       CS231n-Vietnamese
       zh:       
       zh-Hans:  
       zh-Hant:  
     url:        /cs231n-vietnamese
   - titles:
-      en:       BKFA Team
+      en:       BKFA-Team
       zh:       
       zh-Hans:  
       zh-Hant: 
