@@ -1,6 +1,6 @@
 ---
 title: Ubuntu starter-pack for Computer Vision
-tags: Machine Learning
+tags: Machine-Learning
 ---
 
 This tutorial for Ubuntu 18.x and computer with Nvidia GPU, install tensorflow-gpu and opencv.
