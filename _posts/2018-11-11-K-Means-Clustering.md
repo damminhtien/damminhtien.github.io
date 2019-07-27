@@ -1,6 +1,6 @@
 ---
 title: K-Means Clustering
-tags: Machine Learning
+tags: Machine-Learning
 ---
 
 # K-Means Clustering
