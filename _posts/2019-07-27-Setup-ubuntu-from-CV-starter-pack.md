@@ -5,7 +5,8 @@ tags: Machine-Learning
 
 This tutorial for Ubuntu 18.x and computer with Nvidia GPU, install tensorflow-gpu and opencv.
 It require you must install specific version of Cuda, CuDnn to use GPU power. Find more on this [link](
-https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible)
+https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible).
+Let's start! :muscle:
 
 ## 1. Install anaconda
 ```bash
@@ -155,4 +156,12 @@ sudo apt-get install --no-install-recommends \
 sudo apt-get update && \        
         && sudo apt-get install -y --no-install-recommends libnvinfer-dev=5.1.5-1+cuda10.0
 ```
+### Conclusion
+Well done, if you run above command line without error, you got powerful libraries for computer vision. In this tutorial, we intro how to install packages for computer vision - focus in tensorflow-gpu, with 5 steps:
+1. Install Anaconda
+2. Install OpenCV
+3. Install NVIDIA driver
+4. Install NVIDIA packages
+5. Install CUDA, CUDNN and TensorRT
+Finalyyy, we can enjoy them now!!! :kissing_heart: :kissing_heart: :kissing_heart:
 
