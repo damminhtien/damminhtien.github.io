@@ -30,7 +30,7 @@ conda activate tf
 conda deactivate
 ```
 
-## 2. Install OpenCV 3.6.8
+## 2. Install OpenCV 3.4.4
 ```bash
 https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/
 ```
