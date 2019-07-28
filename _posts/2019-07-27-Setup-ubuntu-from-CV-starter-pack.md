@@ -68,11 +68,12 @@ sudo apt-get update && \
         && sudo apt-get install -y --no-install-recommends libnvinfer-dev=5.1.5-1+cuda10.0
 ```
 ### Conclusion
-Well done, if you run above command line without error, you got powerful libraries for computer vision. In this tutorial, we intro how to install packages for computer vision - focus in tensorflow-gpu, with 5 steps:
+Well done, if you run above command lines without error, you would get powerful libraries for computer vision. In this tutorial, we intro how to install neccessary packages for computer vision - focus in tensorflow-gpu - in 5 steps:
 1. Install Anaconda
 2. Install OpenCV
 3. Install NVIDIA driver
 4. Install NVIDIA packages
 5. Install CUDA, CUDNN and TensorRT
-Finalyyy, we can enjoy them now!!! :kissing_heart: :kissing_heart: :kissing_heart:
+
+Finallyyy, you can enjoy them now!!! :kissing_heart: :kissing_heart: :kissing_heart:
 
