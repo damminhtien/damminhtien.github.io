@@ -2,7 +2,7 @@
 
 https://damminhtien.github.io/
 
-Email: [damminhtienchl](mailto:damminhtienchl@gmail.com)
+Email: [damminhtienchl@gmail.com](mailto:damminhtienchl@gmail.com)
 
 Linkedin: [damminhtien](https://www.linkedin.com/in/damminhtien/)
 
