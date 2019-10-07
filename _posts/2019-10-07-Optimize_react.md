@@ -1,5 +1,5 @@
 ---
-title: Learn to optimize in ReactJS
+title: Learning to optimize ReactJS code
 tags: ReactJS
 ---
 
