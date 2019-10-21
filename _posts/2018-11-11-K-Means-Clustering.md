@@ -3,6 +3,10 @@ title: K-Means Clustering
 tags: Machine-Learning
 ---
 
+@Author: damminhtien
+
+@LastUpdate: 21/10/2019
+
 # K-Means Clustering
 
 ![K-Means Clustering](https://media1.giphy.com/media/12vVAGkaqHUqCQ/source.gif)

@@ -1,6 +1,6 @@
 ---
 title: Java Web Development Stack
-tags: Java
+tags: Java, Web Development, Back end
 ---
 
 ## 1. Java Servlet:
