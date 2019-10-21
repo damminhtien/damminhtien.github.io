@@ -1,23 +1,37 @@
 ---
 title: Learning to optimize ReactJS code
-tags: ReactJS
+tags: ReactJS, Optimization, Web Development, Front end
 ---
+
+@Author: damminhtien
+
+@LastUpdate: 21/10/2019
 
 Coding React can be easy but coding React efficiently is more difficult. A list below contains a few key-words that might help you optimize
 your ReactJS code to run a web smoothly.
 
-## Use 'shouldComponentUpdate' function in component
+### 1. Use 'shouldComponentUpdate' function to avoid superfluous re-render
 
-## Use 'PureComponent'
+### 2. Inherit 'React.PureComponent'
 
-## Use 'React.Memo'
+### 3. Use 'React.Memo'
 
-## Use less external library if them not neccessary
+### 4. Don't change 'state' in 'render' function
 
-## Use 'yarn' instead 'npm'
+### 5. Use less external library if them not neccessary
 
-## Using 'rewired-react-app' can config Create-react-app without 'eject'
+### 6. Profiling Components with the Chrome Performance Tab
 
-## 'Debug performance' with Chrome Developer Tool
+### 7. Check Components are re-rendering with the Chrome Render Tab
 
-## Restrict change state or re-render
+### 8. Using Production Mode Flag in Webpack
+
+References:
+
+1. Optiminzing Performance (@ReactJS.org): reactjs.org/docs/optimizing-performance.html
+
+2. React.PureComponet (@ReactJS.org)
+
+3. React.Memo (@ReactJS.org)
+
+4. React Optimization (@codementor.io)
