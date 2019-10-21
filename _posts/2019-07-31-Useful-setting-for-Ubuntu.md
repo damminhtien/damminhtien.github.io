@@ -1,6 +1,11 @@
 ---
 title: Useful packages for developer - A highlight list packages you must install on Ubuntu
 ---
+
+@Author: damminhtien
+
+@LastUpdate: 21/10/2019
+
 ## 1. Up arrow on keybroad to search bash history
 *Reference this [link](https://askubuntu.com/questions/59846/bash-history-search-partial-up-arrow)*
 Open your .bashrc file:
