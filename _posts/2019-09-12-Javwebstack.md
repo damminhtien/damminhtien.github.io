@@ -3,6 +3,10 @@ title: Java Web Development Stack
 tags: Java, Web Development, Back end
 ---
 
+@Author: damminhtien
+
+@LastUpdate: 21/10/2019
+
 ## 1. Java Servlet:
 Servlet có thể được mô tả bằng nhiều cách, tùy thuộc vào ngữ cảnh:
 * Servlet là một công nghệ được sử dụng để tạo ra ứng dụng web.
