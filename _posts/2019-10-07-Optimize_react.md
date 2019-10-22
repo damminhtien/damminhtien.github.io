@@ -1,6 +1,6 @@
 ---
 title: Learning to optimize ReactJS code
-tags: ReactJS, Optimization, Web Development, Front end
+tags: ReactJS, Optimization, Web-development, Front-end
 ---
 
 @Author: damminhtien
