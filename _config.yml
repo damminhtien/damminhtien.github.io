@@ -20,8 +20,8 @@ text_skin: default  # "default" (default), "dark", "forest", "ocean", "chocolate
 highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : The DMT's Blog
-description: Never have any failure, all is challenge
+title   : Just Blog
+description: I love you 3000
    
 
 
@@ -94,7 +94,7 @@ chart: true # false (default), true
 
 ## => Paginate
 ##############################
-paginate: 8
+paginate: 10
 paginate_path: /page:num # don't change this unless for special need
 
 
