@@ -1,19 +1,13 @@
 header:
   - titles:
-      en:       All-posts
-      zh:       归档
-      zh-Hans:  归档
-      zh-Hant:  歸檔
+      en:       index
     url:        /archive.html
   - titles:
-      en:       CS231n-VN
-      zh:       
-      zh-Hans:  
-      zh-Hant:  
+      en:       cs231n
     url:        /cs231n-vietnamese
   - titles:
-      en:       bkfa-team
-      zh:       
-      zh-Hans:  
-      zh-Hant: 
+      en:       bkfa
     url:        https://www.facebook.com/bkfateam
+  - titles:
+      en:       about
+    url:        /about.html
