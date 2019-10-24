@@ -8,25 +8,12 @@ titles:
 key: page-about
 ---
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+### I am Dam Minh Tien. 
 
-## Features
+I am a young and fabulous engineer at Viettel R&D. My focus field is on System Development: machine learning application, web service, database, docker, system analysis and design.
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Multi-language support
-- Search
-- Table of contents
-- Authors (Email, Facebook, Twitter, Linkedin, Weibo, Zhihu, etc)
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+2018, I and my colleague launched BKFA - a share knowledge platform.
+
+2019, I graduated from Hanoi University with an excellent degree on Information Technology.
+
+Best regard.
