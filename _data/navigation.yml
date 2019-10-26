@@ -1,6 +1,6 @@
 header:
   - titles:
-      en:       index
+      en:       archive
     url:        /archive.html
   - titles:
       en:       cs231n
