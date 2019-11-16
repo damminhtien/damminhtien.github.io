@@ -3,9 +3,9 @@ title: K-Means Clustering
 tags: Machine-Learning
 ---
 
-@Author: damminhtien
+@Author: damminhtien :whale:
 
-@LastUpdate: 21/10/2019
+@LastUpdate: 16/11/2019
 
 # K-Means Clustering
 

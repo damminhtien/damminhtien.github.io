@@ -3,9 +3,9 @@ title: Java Web Development Stack
 tags: Java, Web-development, Back-end
 ---
 
-@Author: damminhtien
+@Author: damminhtien :whale:
 
-@LastUpdate: 21/10/2019
+@LastUpdate: 16/11/2019
 
 ## 1. Java Servlet:
 Servlet có thể được mô tả bằng nhiều cách, tùy thuộc vào ngữ cảnh:

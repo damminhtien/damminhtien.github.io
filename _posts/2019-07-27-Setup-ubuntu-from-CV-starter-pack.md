@@ -3,9 +3,9 @@ title: Ubuntu starter-pack for Computer Vision
 tags: Machine-Learning
 ---
 
-@Author: damminhtien
+@Author: damminhtien :whale:
 
-@LastUpdate: 21/10/2019
+@LastUpdate: 16/11/2019
 
 This tutorial for Ubuntu 18.x and computer with Nvidia GPU, install tensorflow-gpu and opencv.
 It require you must install specific version of Cuda, CuDnn to use GPU power. Find more on this [link](
