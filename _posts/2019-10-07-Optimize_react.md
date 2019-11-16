@@ -10,9 +10,9 @@ article_header:
     src: /assets/images/reactjs.png
 ---
 
-@Author: damminhtien
+@Author: damminhtien :whale:
 
-@LastUpdate: 21/10/2019
+@LastUpdate: 16/11/2019
 
 Coding React can be easy but coding React efficiently is more difficult. A list below contains a few key-words that might help you optimize
 your ReactJS code to run a web smoothly.

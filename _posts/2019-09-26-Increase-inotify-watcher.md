@@ -3,9 +3,9 @@ title: Increasing the amount of inotify watchers
 tags: Linux
 ---
 
-@Author: damminhtien
+@Author: damminhtien :whale:
 
-@LastUpdate: 21/10/2019
+@LastUpdate: 16/11/2019
 
 Sometime you code on VSCode editor and get troubles with **the limit of watchers in linux**, the error seem like "Unable to wathc for file changes 
 in this large workspace". The content below will help you debug :) 
