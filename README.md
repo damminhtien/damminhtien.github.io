@@ -1,7 +1,6 @@
-# DMT's Blog
-
-https://damminhtien.github.io/
+# Blog of DMT
 
 
 
-More: [WaterBlog](https://thewaterdroplets.blogspot.com)
+
+More :droplet:: [Water blog](https://thewaterdroplets.blogspot.com)
