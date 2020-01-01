@@ -1,9 +1,9 @@
-# DMT's Blog
+# Blog of DMT
 
-https://damminhtien.github.io/
+> ## damminhtien.com :octocat:
 
-Email: [damminhtienchl@gmail.com](mailto:damminhtienchl@gmail.com)
+:mailbox: [damminhtienchl@gmail.com](mailto:damminhtienchl@gmail.com)
 
-Linkedin: [damminhtien](https://www.linkedin.com/in/damminhtien/)
+:link: [damminhtien on linkedin](https://www.linkedin.com/in/damminhtien/)
 
-More: [WaterBlog](https://thewaterdroplets.blogspot.com)
+More :droplet:: [Water blog](https://thewaterdroplets.blogspot.com)
