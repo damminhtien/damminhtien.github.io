@@ -20,7 +20,7 @@ text_skin: default  # "default" (default), "dark", "forest", "ocean", "chocolate
 highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Just Blog
+title   : Happy learning :octocat: !
 description: I love you 3000
    
 
@@ -34,7 +34,7 @@ timezone: Asia/Saigon # see https://en.wikipedia.org/wiki/List_of_tz_database_ti
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
+  type      : person
   name      : damminhtien
   avatar    : # path or url of avatar image
   bio       : Technology enthusiast, happy guy.
@@ -119,9 +119,9 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
+    clientID    : f47a45192ce2dfa85779
+    repository  : damminhtien.github.io
+    owner       : damminhtien
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
