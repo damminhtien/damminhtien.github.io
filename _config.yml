@@ -21,7 +21,7 @@ highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Watering technology blog
-description: I love you 3000
+description: Blog for technology enthusiasts <3
    
 
 
