@@ -18,16 +18,16 @@ This document includes some key features of concurrency, these implementations a
 
 Reference: [Python Cookbook: Recipes for Mastering Python 3](https://www.oreilly.com/library/view/python-cookbook/0596001673/)
 
-### 0. The theories
-**What is a Thread?**
+## 0. The theories
+### What is a Thread?
 
 A thread is a path of execution within a process. A process can contain multiple threads. @[Geeks4Greeks](https://www.geeksforgeeks.org/thread-in-operating-system/)
 
-**Concurrent vs Parallel**
+### Concurrent vs Parallel
 
 A system is said to be concurrent if it can support two or more actions in progress at the same time. A system is said to be parallel if it can support two or more actions executing simultaneously. The key concept and difference between these definitions is the phrase " @[takuti](https://takuti.me/note/parallel-vs-concurrent/)
 
-**Concurrent Execution in Python**
+### Concurrent Execution in Python
 
 There are several differences ways to implement concurrent execution in Python: 
 * [threading](https://docs.python.org/3/library/threading.html) — Thread-based (what we focus on this document)
@@ -39,15 +39,15 @@ There are several differences ways to implement concurrent execution in Python:
 * [sched](https://docs.python.org/3/library/sched.html) — Event scheduler
 * [queue](https://docs.python.org/3/library/queue.html) — A synchronized queue class
 
-**GIL**
+### GIL
 
 The Python Global Interpreter Lock or GIL, in simple words, is a mutex (or a lock) that allows only one thread to hold the control of the Python interpreter.
 
 This means that only one thread can be in a state of execution at any point in time. @[realpython](https://realpython.com/python-gil/)
 
-### 1. The basics
+## 1. The basics
 
-#### Start the Thread
+### Start the Thread
 The threading library can be used to execute any Python callable in its own thread. To do this, you create a Thread instance and supply the callable that you wish to execute
 as a target.
 
