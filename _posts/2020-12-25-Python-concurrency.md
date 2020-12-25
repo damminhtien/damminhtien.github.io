@@ -72,6 +72,7 @@ t2.start()
 ### Terminate the Thread
 Due to a global interpreter lock (GIL), Python threads are restricted to an execution model that only allows one thread to execute in the interpreter at any given time. For this reason, Python threads should generally not be used for computationally intensive tasks where you are trying to achieve parallelism on multiple CPUs. They are much
 better suited for I/O handling and handling concurrent execution in code that performs blocking operations (e.g., waiting for I/O, waiting for results from a database, etc.).
+
 ```python
 import time
 from threading import Thread
@@ -102,12 +103,13 @@ time.sleep(5)
 print('Main thread terminate')
 ```
 
-> ### Thread's status
+### Thread's status
 Event instances are similar to a “sticky” flag that allows threads to wait for something
 to happen. Initially, an event is set to 0. If the event is unset and a thread waits on the
 event, it will block (i.e., go to sleep) until the event gets set. A thread that sets the event
 will wake up all of the threads that happen to be waiting (if any). If a thread waits on an
 event that has already been set, it merely moves on, continuing to execute.
+
 ```python
 from threading import Thread, Event
 import time
@@ -134,9 +136,10 @@ started_evt.wait()
 print('Countdown is running')
 ```
 
-> ### Threading condition
+### Threading condition
 Event objects are best used for one-time events. That is, you create an event, threads wait for the event to be set, and once set, the Event is discarded. Although it is possible to clear an event using its clear() method, safely clearing an event and waiting for it to be set again is tricky to coordinate, and can lead to missed events, deadlock, or other
 problems (in particular, you can’t guarantee that a request to clear an event after setting it will execute before a released thread cycles back to wait on the event again). If a thread is going to repeatedly signal an event over and over, you’re probably better off using a Condition object instead. For example, this code implements a periodic timer that other threads can monitor to see whenever the timer expires:
+
 ```python
 class PeriodicTimer:
     def __init__(self, interval):
@@ -193,8 +196,9 @@ threading.Thread(target=countdown, args=(10,)).start()
 threading.Thread(target=countup, args=(5,)).start()
 ```
 
-> ### Basic semaphore
+### Basic semaphore
 A critical feature of Event objects is that they wake all waiting threads. If you are writing a program where you only want to wake up a single waiting thread, it is probably better to use a Semaphore or Condition object instead.
+
 ```python
 import threading
 import time
@@ -218,7 +222,7 @@ for n in range(nworkers):
 sema.release()
 ```
 
-> ### Thread communication
+### Thread communication
 
 Perhaps the safest way to send data from one thread to another is to use a Queue from the queue library. We create a Queue instance that is shared by the threads. Threads then use put() or get() operations to add or remove items from the queue.
 
@@ -228,6 +232,7 @@ Thread communication with a queue is a one-way and nondeterministic process. In 
 
 One caution with thread queues is that putting an item in a queue doesn’t make a copy of the item. Thus, communication actually involves passing an object reference between threads. If you are concerned about shared state, it may make sense to only pass im‐
 mutable data structures (e.g., integers, strings, or tuples) or to make deep copies of the queued items. out_q.put(copy.deepcopy(data)).
+
 ```python
 from queue import Queue
 from threading import Thread
@@ -303,7 +308,7 @@ class PriorityQueue:
             return heapq.heappop(self._queue)[-1]
 ```
 
-> ### Locking Critical Sections
+### Locking Critical Sections
 
 To make mutable objects safe to use by multiple threads, use Lock objects in the threading library, as shown here:
 
@@ -328,7 +333,7 @@ class SharedCounter:
             self._value -= delta
 ```
 
-> ### Deadlock Avoidance
+### Deadlock Avoidance
 
 In multithreaded programs, a common source of deadlock is due to threads that attempt to acquire multiple locks at once. For instance, if a thread acquires the first lock, but then blocks trying to acquire the second lock, that thread can potentially block the progress of other threads and make the program freeze. One solution to deadlock avoidance is to assign each lock in the program a unique number, and to enforce an ordering rule that only allows multiple locks to be acquired in ascending order. The key to this recipe lies in the first statement that sorts the locks according to object identifier. By sorting the locks, they always get acquired in a consistent order regardless of how the user might have provided them to acquire().
 
