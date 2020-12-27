@@ -1,11 +1,11 @@
 ---
 title: Python concurrency
-tags: python, programming
+tags: python programming
 ---
 
 @Author: damminhtien :whale:
 
-@LastUpdate: 25/12/2020
+@LastUpdate: 27/12/2020
 
 # Python concurrency
 > ### Concurrent mechanism in Python (key features from Python Cookbook)
