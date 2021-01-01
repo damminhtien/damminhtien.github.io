@@ -1,6 +1,6 @@
 ---
 title: Java Web Development Stack
-tags: Java, Web-development Back-end
+tags: Java, Web-development Back-end java
 ---
 
 @Author: damminhtien :whale:
