@@ -1,6 +1,6 @@
 ---
 title: Learning to optimize ReactJS app by avoiding redundant re-render
-tags: ReactJS, Optimization, Web-development, Front-end
+tags: ReactJS Web-development Front-end
 mode: immersive
 header:
   theme: dark
