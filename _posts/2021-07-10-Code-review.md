@@ -9,7 +9,7 @@ tags: programming clean-code workflow
 
 ### Questions to ask yourself when conducting a code review
 
-First, let's look over some of the questions we might ask ourselves while reviewing code. These are drawn from the concepts we've covered in these last two lessons.
+Let's look over some of the questions we might ask ourselves while reviewing code. 
 
 1. Is the code clean and modular?
   + Can I understand the code easily?
