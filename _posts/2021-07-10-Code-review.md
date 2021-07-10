@@ -41,3 +41,5 @@ First, let's look over some of the questions we might ask ourselves while review
   + Are log messages clear, concise, and professional?
   + Do they include all relevant and useful information?
   + Do they use the appropriate logging level?
+
+Source: AWS Machine Learning Foundations Nanodegree Program
