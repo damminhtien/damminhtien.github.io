@@ -5,9 +5,11 @@ tags: programming clean-code workflow
 
 @Author: damminhtien :whale:
 
-@LastUpdate: 10/07/2021
+@LastUpdate: 30/03/2021
 
 ### Questions to ask yourself when conducting a code review
+
+Code review plays an vital role in software development pipeline. Although in the modern day this work is more easier and automate with the support of a lot of CI tools, reviewer have to know extractly what the purpose of pull requests and where the issues can happen. 
 
 Let's look over some of the questions we might ask ourselves while reviewing code. 
 
@@ -42,4 +44,4 @@ Let's look over some of the questions we might ask ourselves while reviewing cod
   + Do they include all relevant and useful information?
   + Do they use the appropriate logging level?
 
-Source: AWS Machine Learning Foundations Nanodegree Program
+Reference: AWS Machine Learning Foundations Nanodegree Program
