@@ -29,7 +29,7 @@ Nhiều đồng nghiệp cho rằng prompting và prompt engineering là một "
 
 Prompt engineering đang phát triển nhanh chóng và trở thành một kỹ năng tinh vi. Prompting hơn hết chính là một ngôn ngữ lập trình tự nhiên:
 
-Andrej Karpathy (một về học máy rất nổi tiếng, Chef AI of @Tesla) [đã viết trên Twitter](https://twitter.com/karpathy/status/1617979122625712128):
+Andrej Karpathy (một học giả về AI rất nổi tiếng, Chief AI of @Tesla) [đã viết trên Twitter](https://twitter.com/karpathy/status/1617979122625712128):
 
 The hottest new programming language is English
 
@@ -47,5 +47,16 @@ Một người bạn nói với tôi rằng Anthropic - một startup dẫn đ�
 
 Vì vậy, API ChatGPT mới được cung cấp bởi mô hình gpt-turbo-3.5 mới. Bihan @Scale đã viết về [tại sao ChatGPT API nhanh hơn, rẻ hơn và nhiều từ hơn ChatGPT Web UI được cung cấp bởi mô hình text-davinci-003](https://scale.com/blog/chatgpt-vs-davinci#Introduction). Một số khám phá được ghi chép lại trong quá trình kiểm thử. 
 
+Open AI đã đăng tài liệu mới về [một số thay đổi với ChatGPT API và gpt-turbo-3.5](https://platform.openai.com/docs/guides/chat/introduction). Ví dụ: hướng dẫn prompt, hoàn thành trò chuyện, tinh chỉnh tốt hơn và cách sử dụng dữ liệu của bạn.
+
+Bạn có thể thử nghiệm xem các yếu tố prompting đã thay đổi (hoặc chưa) trong các thử nghiệm của mình với mô hình gpt-3.5-turbo mới với [ChatGPT Demo trong Gradio](https://huggingface.co/spaces/anzorq/chatgpt-demo). Nó sử dụng API ChatGPT mới và mẫu lời nhắc từ awesome-chatgpt-prompts.
+
+Hiểu quan hệ giữa các token, prompting và chi phí cũng rất quan trọng khi chạy các mô hình GPT. Để tính toán khoảng 1 triệu token với API ChatGPT mới sẽ tốn... hai đô la... rất rẻ :) !
+
+Một đồng nghiệp nói với tôi rằng có thể chỉ tốn khoảng ~8400 đô la để tạo ra 4,2 tỷ từ của Wikipedia bằng gpt-generate! Tabarak @OpenAI đã viết về: [Token là gì và cách đếm chúng?](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
+
+Nhưng hãy cẩn thận, bởi sau tốc độ và chi phí tính toán rẻ của API ChatGPT mới, có một sự đánh đổi. Nhiều kỹ sư, startup đã xây dựng ứng dụng sử dụng mô hình text-davinci-003, đã [báo cáo các vấn đề khi chuyển đổi/ tối ưu lại sang gpt-turbo-3.5](https://twitter.com/zachtratar/status/1631429341363212289?s=61&t=ZyNdWIJtgk4tljYelTK-_A).
+
+@baobabKoodaa đã đăng một [notebook về việc chuyển đổi từ davinci-003 sang gpt-3.5-turbo-0301](https://github.com/baobabKoodaa/future/blob/master/server.js#L58-L99) với các hướng dẫn prompting và ví dụ.
 
 
