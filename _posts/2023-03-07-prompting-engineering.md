@@ -23,40 +23,65 @@ Trong phần tiếp theo, tôi dịch lại từ trang [Data Machina số #191](
 
 ### Về Prompt Engineering & GPT Models: Một Chuyến Tham Quan Ngẫu Nhiên. 
 
-Nhiều đồng nghiệp cho rằng prompting và prompt engineering là một "bug của LLMs" và là một "trào lưu sẽ mất đi ngay khi LLMs trở nên tốt hơn", tôi không đồng ý. Prompt engineering còn nhiều hơn chỉ là truy vấn bằng một số từ khóa thông minh. Prompt engineering vẫn sẽ còn tồn tại.
+Nhiều đồng nghiệp cho rằng prompting và prompt engineering đơn thuần là một "lỗi của mô hình ngôn ngữ" và là một "trào lưu sẽ mất đi ngay khi mô hình ngôn ngữ trở nên tốt hơn", tôi không đồng ý. Prompt engineering không chỉ là truy vấn bằng một số từ khóa thông minh. Prompt engineering vẫn sẽ tiếp tục tồn tại.
 
-Để lấy nội dung cho bài viết này, tôi rất thích đọc [On Prompt Engineering](https://benjamincongdon.me/blog/2023/02/18/On-Prompt-Engineering/) vì nó truyền đạt nhiều ý tưởng của tôi về chủ đề này.
+Để lấy cảm hứng cho bài viết này, tôi rất thích đọc [On Prompt Engineering](https://benjamincongdon.me/blog/2023/02/18/On-Prompt-Engineering/) vì nó truyền đạt nhiều ý tưởng của tôi về chủ đề này.
 
 Prompt engineering đang phát triển nhanh chóng và trở thành một kỹ năng tinh vi. Prompting hơn hết chính là một ngôn ngữ lập trình tự nhiên:
 
-Andrej Karpathy (một học giả về AI rất nổi tiếng, Chief AI of @Tesla) [đã viết trên Twitter](https://twitter.com/karpathy/status/1617979122625712128):
+Andrej Karpathy (một học giả về AI rất nổi tiếng, Chief AI of @Tesla) [đã viết trên Twitter](https://twitter.com/karpathy/status/1617979122625712128) ngày 24 Tháng 1, 2023:
 
 The hottest new programming language is English
 
 (Tạm dịch: Ngôn ngữ lập trình mới nhất nóng hổi là tiếng Anh)
 
-8:14 PM ∙ 24 Tháng 1, 2023
-
 19,412 Lượt thích2,392 Lượt chia sẻ
 
-Trong một webinar gần đây, Chris Potts @StanfordNLP đã nói về old-school prompting và (cutting edge!) prompting từng bước một. Xem trang: [Beyond GPT-3: Các khái niệm chính và câu hỏi mở trong một kỷ nguyên và hiểu biết ngôn ngữ tự nhiên](https://docs.google.com/presentation/d/1WPYaLEEVJJI_-DOzjudeVoYpl_y0yUi1kWs0VFBnba4/edit?usp=sharing).
+(Karpathy không gần ngại khi chia sẻ quan điểm, ông không dùng 'will' mà khẳng định rằng nó đã và đang là một ngôn ngữ lập trình nóng hổi)
+
+Trong một webinar gần đây, Chris Potts @StanfordNLP đã nói về old-school prompting và (cutting edge!) prompting, tức là cách tư duy viết prompt cũ và mới. Xem trang: [Beyond GPT-3: Các khái niệm chính và câu hỏi mở trong một kỷ nguyên và hiểu biết ngôn ngữ tự nhiên](https://docs.google.com/presentation/d/1WPYaLEEVJJI_-DOzjudeVoYpl_y0yUi1kWs0VFBnba4/edit?usp=sharing).
 
 Prompt engineering đòi hỏi: chuyên môn về lĩnh vực, hiểu cách LLMs phản ứng với các prompt, tư duy có cấu trúc, tư duy giải quyết vấn đề và kỹ năng giao tiếp xuất sắc. Bài luận của Prem rất chính xác: [Prompt Design: Programming with Plain Text, và Prompt Tuning: Learnable Prompts](https://towardsdatascience.com/guiding-a-huge-language-model-lm-to-perform-specific-tasks-prompt-design-and-soft-prompts-7c45ef4794e4).
 
 Một người bạn nói với tôi rằng Anthropic - một startup dẫn đầu trong LLMs - đang gặp khó khăn trong việc tuyển dụng [Kỹ Sư Prompt với mức lương 175.000 đến 335.000 đô la Mỹ mỗi năm](https://jobs.lever.co/Anthropic/e3cde481-d446-460f-b576-93cab67bd1ed), mặc dù đã nhận được hàng trăm đơn xin việc.
 
-Vì vậy, API ChatGPT mới được cung cấp bởi mô hình gpt-turbo-3.5 mới. Bihan @Scale đã viết về [tại sao ChatGPT API nhanh hơn, rẻ hơn và nhiều từ hơn ChatGPT Web UI được cung cấp bởi mô hình text-davinci-003](https://scale.com/blog/chatgpt-vs-davinci#Introduction). Một số khám phá được ghi chép lại trong quá trình kiểm thử. 
+Vì vậy, API ChatGPT mới được cung cấp bởi mô hình gpt-turbo-3.5 mới. Bihan @Scale đã viết về [tại sao ChatGPT API nhanh hơn, rẻ hơn và nhiều từ hơn ChatGPT Web UI được cung cấp bởi mô hình text-davinci-003](https://scale.com/blog/chatgpt-vs-davinci#Introduction). Một số khám phá cũng được ghi chép lại trong quá trình kiểm thử. 
 
 Open AI đã đăng tài liệu mới về [một số thay đổi với ChatGPT API và gpt-turbo-3.5](https://platform.openai.com/docs/guides/chat/introduction). Ví dụ: hướng dẫn prompt, hoàn thành trò chuyện, tinh chỉnh tốt hơn và cách sử dụng dữ liệu của bạn.
 
 Bạn có thể thử nghiệm xem các yếu tố prompting đã thay đổi (hoặc chưa) trong các thử nghiệm của mình với mô hình gpt-3.5-turbo mới với [ChatGPT Demo trong Gradio](https://huggingface.co/spaces/anzorq/chatgpt-demo). Nó sử dụng API ChatGPT mới và mẫu lời nhắc từ awesome-chatgpt-prompts.
 
-Hiểu quan hệ giữa các token, prompting và chi phí cũng rất quan trọng khi chạy các mô hình GPT. Để tính toán khoảng 1 triệu token với API ChatGPT mới sẽ tốn... hai đô la... rất rẻ :) !
+Hiểu quan hệ giữa các token, prompting và chi phí cũng rất quan trọng khi chạy các mô hình GPT. Để tính toán khoảng 1 triệu token với API ChatGPT mới sẽ tốn... 2 $... rất rẻ :) !
 
-Một đồng nghiệp nói với tôi rằng có thể chỉ tốn khoảng ~8400 đô la để tạo ra 4,2 tỷ từ của Wikipedia bằng gpt-generate! Tabarak @OpenAI đã viết về: [Token là gì và cách đếm chúng?](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
+Một đồng nghiệp nói với tôi rằng có thể chỉ tốn khoảng ~8,4k $ để tạo ra 4,2 tỷ từ của Wikipedia bằng gpt-generate! Tabarak @OpenAI đã viết về: [Token là gì và cách đếm chúng?](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
 
 Nhưng hãy cẩn thận, bởi sau tốc độ và chi phí tính toán rẻ của API ChatGPT mới, có một sự đánh đổi. Nhiều kỹ sư, startup đã xây dựng ứng dụng sử dụng mô hình text-davinci-003, đã [báo cáo các vấn đề khi chuyển đổi/ tối ưu lại sang gpt-turbo-3.5](https://twitter.com/zachtratar/status/1631429341363212289?s=61&t=ZyNdWIJtgk4tljYelTK-_A).
 
 @baobabKoodaa đã đăng một [notebook về việc chuyển đổi từ davinci-003 sang gpt-3.5-turbo-0301](https://github.com/baobabKoodaa/future/blob/master/server.js#L58-L99) với các hướng dẫn prompting và ví dụ.
+
+Trong diễn biến khác, Han - tác giả của [PromptPerfect](https://promptperfect.jina.ai/) - anh ấy xác nhận rằng việc chuyển đổi từ davinci003 sang gpt3.5-turbo trong [một vài trường hợp còn sinh ra kết quả tệ hơn](https://twitter.com/hxiao/status/1631333580977721345?s=61&t=iW4mWDdqmuWgaUpuM_71yA).
+
+Điều tra tất cả vấn đề trên chỉ ra rằng, để sinh ra mô hình ngôn ngữ nhanh hơn và rẻ hơn, điều cần làm là sử dụng [LLM distillation và model compression (nén mô hình)](https://quillbot.com/blog/compressing-large-language-generation-models-with-sequence-level-knowledge-distillation/)
+
+Những nghiên cứu sách cũng chỉ ra rằng: các nhà phát triển ứng dụng AI đang điều chỉnh các tham số cho mô hình gpt-3.5-turbo như: temperature, top p, penalty ... Bạn có thể tham khảo cách điều chỉnh này tại [Interactive guide to GPT-3 prompt parameters](https://sevazhidkov.com/interactive-guide-to-gpt-3-prompt-parameters).
+
+Prompting, SQL và phân tích dữ liệu. SQL được cho là ngôn ngữ được sử dụng nhiều nhất trong phân tích dữ liệu. Nếu bạn là người mới vào nghề hoặc đang ở vị trí middle thì bạn nên biết rằng các công ty đang thử nghiệm tự động quá trình truy xuất dữ liệu nhiều hơn bạn nghĩ.
+
+Bạn đã từng thử GPT/Codex cho việc chạy các truy vấn SQL? Đây là một bài báo thú vị về cách cài đặt một môi trường [GPT-SQL để tạo ra sản phẩm chuyển từ ngôn ngữ tự nhiên sang SQL](https://innerjoin.bit.io/making-a-production-llm-prompt-for-text-to-sql-translation-b798b6e94783).
+
+Ngày càng có nhiều công cụ để tạo và quản lý prompt:  Everyprompt, Promptify, OpenPrompt, Betterprompt, Soaked, Dyno... Sau đây là các công cụ khác:
++ Quản lý prompt dễ dàng với [Promptly](https://trypromptly.com/)
++ Khám phá, học và thử nghiệm các ChatGPT prompt với [Prompt Vibes](https://www.promptvibes.com/)
++ [PromptGym](https://github.com/inspired-cognition/critique-apps), vừa thử, đánh giá các prompt khác nhau ở nhiều khía cạnh
+
+
+
+
+
+
+
+
+
+
 
 
