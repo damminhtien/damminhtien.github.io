@@ -298,7 +298,7 @@ When publishing your library, there are a few additional considerations to keep 
 
 Additionally, you might want to consider promoting your library through social media, blog posts, or other means to help increase its visibility and usage. By doing so, you can attract more users and contributors to your project, which can help it grow and evolve over time.
 
-**In conclusion, building your own front-end UI library with React JS can be a rewarding experience. By following the steps outlined in this article, you can create a library that is customizable, reusable, and efficient.
+**In conclusion, building your own front-end UI library with React JS can be a rewarding experience. By following the steps outlined in this article, you can create a library that is customizable, reusable, and efficient.**
 
 By creating your own UI library, you will have full control over the look and feel of your application and be able to streamline the development process. Additionally, you can take advantage of the growing React ecosystem, including libraries like styled-components and tools like Docz or Styleguidist for documentation.
 
@@ -306,4 +306,4 @@ It is important to keep in mind that building a UI library is an ongoing process
 
 If you are interested in learning more about building front-end libraries, there are many great resources available. The React documentation, official styled-components documentation, and GitHub repositories of popular libraries are great places to start.
 
-I hope this article has provided a useful roadmap for creating your own front-end UI library with React JS. Happy coding!
+**I hope this article has provided a useful roadmap for creating your own front-end UI library with React JS. Happy coding!** 😙
