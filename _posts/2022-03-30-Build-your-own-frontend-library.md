@@ -14,8 +14,6 @@ article_header:
 
 @LastUpdate: 10/07/2021
 
-## Build your own front-end library
-
 Building a front-end UI library based on React JS can be a great way to streamline your development process and ensure consistency across your projects. In this blog post, we will take a detailed look at how to build your own front-end UI library with React JS.
 
 Before we dive into the technical details, let's first define what a front-end UI library is. *A front-end UI library is a collection of reusable components and styles that are used to build user interfaces. By using a UI library, developers can save time and effort by reusing existing components instead of building everything from scratch.*
