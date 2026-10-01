@@ -160,6 +160,8 @@ exclude:
   - HOW_TO_RELEASE.md
   - Gemfile
   - Gemfile.lock
+  - AGENTS.md
+  - .codex
   - LICENSE
   - README-*.md
   - README.md
