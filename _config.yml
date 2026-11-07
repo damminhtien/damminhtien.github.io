@@ -110,6 +110,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
+  # Gitalk requires an OAuth secret; keep it disabled in this public config.
   provider: false # false (default), "disqus", "gitalk", "custom"
 
   ## Disqus
